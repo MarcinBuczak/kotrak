@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartoteka_Kontrachentow", "Kartoteka_Kontrachentow\Kartoteka_Kontrachentow.csproj", "{6266A773-7C43-4644-BE2D-4C7286090189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{AD25B13D-5381-418A-9F26-A77415C875C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6266A773-7C43-4644-BE2D-4C7286090189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6266A773-7C43-4644-BE2D-4C7286090189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6266A773-7C43-4644-BE2D-4C7286090189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6266A773-7C43-4644-BE2D-4C7286090189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD25B13D-5381-418A-9F26-A77415C875C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD25B13D-5381-418A-9F26-A77415C875C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD25B13D-5381-418A-9F26-A77415C875C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD25B13D-5381-418A-9F26-A77415C875C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A570F1D-AF66-47BD-8BAF-95DB7E4CD2FF}
+	EndGlobalSection
+EndGlobal

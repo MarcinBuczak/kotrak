@@ -1,0 +1,7 @@
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\bin\Debug\Logic.dll
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\bin\Debug\Logic.pdb
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\bin\Debug\LiteDB.dll
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\bin\Debug\LiteDB.xml
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\obj\Debug\Logic.dll
+C:\PROJEKTY\kotrak\Kartoteka_Kontrachentow\Logic\obj\Debug\Logic.pdb

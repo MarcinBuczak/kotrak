@@ -1,1 +1,2 @@
-Treœæ zadania
+Treœæ zadania:
+Aplikacja to Kartoteka kontrahentów. Powinna umo¿liwiæ dodanie nowego, edycjê i przegl¹danie dodanych kontrahentów.

@@ -1,0 +1,24 @@
+﻿@using System.Configuration
+@model Kartoteka_Kontrachentow.ViewModels.ContractorViewModel
+
+<div class="form-group">
+    @Html.TextBoxFor(model => model.Address.State, new { placeholder = "Państwo" })
+    @Html.ValidationMessageFor(model => model.Address.State)
+</div>
+<div class="form-group">
+    @Html.TextBoxFor(model => model.Address.City, new { placeholder = "Miasto" })
+    @Html.ValidationMessageFor(model => model.Address.City)
+</div>
+<div class="form-group">
+    @Html.TextBoxFor(model => model.Address.Street, new { placeholder = "Ulica" })
+    @Html.ValidationMessageFor(model => model.Address.Street)
+</div>
+<div class="form-group">
+    @Html.TextBoxFor(model => model.Address.HouseNumber, new { placeholder = "Numer domu" })
+    @Html.ValidationMessageFor(model => model.Address.HouseNumber)
+</div>
+<div class="form-group">
+    @Html.TextBoxFor(model => model.Address.ApartmentNumber, new { placeholder = "Numer mieszkania" })
+    @Html.ValidationMessageFor(model => model.Address.ApartmentNumber)
+</div>
+

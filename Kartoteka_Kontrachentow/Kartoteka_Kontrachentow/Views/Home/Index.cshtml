@@ -1,0 +1,36 @@
+﻿@using System.Configuration
+@model List<Kartoteka_Kontrachentow.ViewModels.ContractorViewModel>
+
+@{
+    ViewBag.Title = "Nasi kontrahenci";
+}
+
+<div class="jumbotron">
+    <h1>Kartoteka kontrahentów</h1>
+</div>
+
+<div class="row">
+    <table class="table table-hover">
+            <tr>
+                <th>NIP</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Adres</th>
+                <th></th>
+            </tr>
+     @foreach (var mod in Model)
+     {
+        <tr>
+            <td>@mod.NIP</td>
+            <td>@mod.FirstName</td>
+            <td>@mod.LastName</td>
+            <td>@mod.Email</td>
+            <td>@mod.PhoneNumber</td>
+            <td>@mod.Address.City @mod.Address.Street @mod.Address.ApartmentNumber @mod.Address.HouseNumber</td>
+            <td><button class="btn btn-info">Edytuj</button></td>
+        </tr>
+      }
+    </table>
+</div>
